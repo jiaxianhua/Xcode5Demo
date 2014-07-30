@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358AA5B419890DB3001F5AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AA5B319890DB3001F5AA1 /* Foundation.framework */; };
+		358AA5B619890DB3001F5AA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AA5B519890DB3001F5AA1 /* CoreGraphics.framework */; };
+		358AA5B819890DB4001F5AA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AA5B719890DB4001F5AA1 /* UIKit.framework */; };
+		358AA5BE19890DB4001F5AA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358AA5BC19890DB4001F5AA1 /* InfoPlist.strings */; };
+		358AA5C019890DB4001F5AA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358AA5BF19890DB4001F5AA1 /* main.m */; };
+		358AA5C419890DB4001F5AA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358AA5C319890DB4001F5AA1 /* AppDelegate.m */; };
+		358AA5C719890DB4001F5AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358AA5C519890DB4001F5AA1 /* Main.storyboard */; };
+		358AA5CA19890DB4001F5AA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358AA5C919890DB4001F5AA1 /* ViewController.m */; };
+		358AA5CC19890DB4001F5AA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358AA5CB19890DB4001F5AA1 /* Images.xcassets */; };
+		358AA5D319890DB4001F5AA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AA5D219890DB4001F5AA1 /* XCTest.framework */; };
+		358AA5D419890DB4001F5AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AA5B319890DB3001F5AA1 /* Foundation.framework */; };
+		358AA5D519890DB4001F5AA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AA5B719890DB4001F5AA1 /* UIKit.framework */; };
+		358AA5DD19890DB4001F5AA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358AA5DB19890DB4001F5AA1 /* InfoPlist.strings */; };
+		358AA5DF19890DB4001F5AA1 /* UITableView________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358AA5DE19890DB4001F5AA1 /* UITableView________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		358AA5D619890DB4001F5AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358AA5A819890DB3001F5AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358AA5AF19890DB3001F5AA1;
+			remoteInfo = "UITableView单元格间隔背景色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358AA5B019890DB3001F5AA1 /* UITableView单元格间隔背景色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView单元格间隔背景色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358AA5B319890DB3001F5AA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		358AA5B519890DB3001F5AA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		358AA5B719890DB4001F5AA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		358AA5BB19890DB4001F5AA1 /* UITableView单元格间隔背景色-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView单元格间隔背景色-Info.plist"; sourceTree = "<group>"; };
+		358AA5BD19890DB4001F5AA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358AA5BF19890DB4001F5AA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		358AA5C119890DB4001F5AA1 /* UITableView单元格间隔背景色-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView单元格间隔背景色-Prefix.pch"; sourceTree = "<group>"; };
+		358AA5C219890DB4001F5AA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		358AA5C319890DB4001F5AA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		358AA5C619890DB4001F5AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358AA5C819890DB4001F5AA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		358AA5C919890DB4001F5AA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		358AA5CB19890DB4001F5AA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		358AA5D119890DB4001F5AA1 /* UITableView单元格间隔背景色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView单元格间隔背景色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358AA5D219890DB4001F5AA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		358AA5DA19890DB4001F5AA1 /* UITableView单元格间隔背景色Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView单元格间隔背景色Tests-Info.plist"; sourceTree = "<group>"; };
+		358AA5DC19890DB4001F5AA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358AA5DE19890DB4001F5AA1 /* UITableView________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358AA5AD19890DB3001F5AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358AA5B619890DB3001F5AA1 /* CoreGraphics.framework in Frameworks */,
+				358AA5B819890DB4001F5AA1 /* UIKit.framework in Frameworks */,
+				358AA5B419890DB3001F5AA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358AA5CE19890DB4001F5AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358AA5D319890DB4001F5AA1 /* XCTest.framework in Frameworks */,
+				358AA5D519890DB4001F5AA1 /* UIKit.framework in Frameworks */,
+				358AA5D419890DB4001F5AA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358AA5A719890DB3001F5AA1 = {
+			isa = PBXGroup;
+			children = (
+				358AA5B919890DB4001F5AA1 /* UITableView单元格间隔背景色 */,
+				358AA5D819890DB4001F5AA1 /* UITableView单元格间隔背景色Tests */,
+				358AA5B219890DB3001F5AA1 /* Frameworks */,
+				358AA5B119890DB3001F5AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		358AA5B119890DB3001F5AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358AA5B019890DB3001F5AA1 /* UITableView单元格间隔背景色.app */,
+				358AA5D119890DB4001F5AA1 /* UITableView单元格间隔背景色Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358AA5B219890DB3001F5AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358AA5B319890DB3001F5AA1 /* Foundation.framework */,
+				358AA5B519890DB3001F5AA1 /* CoreGraphics.framework */,
+				358AA5B719890DB4001F5AA1 /* UIKit.framework */,
+				358AA5D219890DB4001F5AA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		358AA5B919890DB4001F5AA1 /* UITableView单元格间隔背景色 */ = {
+			isa = PBXGroup;
+			children = (
+				358AA5C219890DB4001F5AA1 /* AppDelegate.h */,
+				358AA5C319890DB4001F5AA1 /* AppDelegate.m */,
+				358AA5C519890DB4001F5AA1 /* Main.storyboard */,
+				358AA5C819890DB4001F5AA1 /* ViewController.h */,
+				358AA5C919890DB4001F5AA1 /* ViewController.m */,
+				358AA5CB19890DB4001F5AA1 /* Images.xcassets */,
+				358AA5BA19890DB4001F5AA1 /* Supporting Files */,
+			);
+			path = "UITableView单元格间隔背景色";
+			sourceTree = "<group>";
+		};
+		358AA5BA19890DB4001F5AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358AA5BB19890DB4001F5AA1 /* UITableView单元格间隔背景色-Info.plist */,
+				358AA5BC19890DB4001F5AA1 /* InfoPlist.strings */,
+				358AA5BF19890DB4001F5AA1 /* main.m */,
+				358AA5C119890DB4001F5AA1 /* UITableView单元格间隔背景色-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358AA5D819890DB4001F5AA1 /* UITableView单元格间隔背景色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				358AA5DE19890DB4001F5AA1 /* UITableView________Tests.m */,
+				358AA5D919890DB4001F5AA1 /* Supporting Files */,
+			);
+			path = "UITableView单元格间隔背景色Tests";
+			sourceTree = "<group>";
+		};
+		358AA5D919890DB4001F5AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358AA5DA19890DB4001F5AA1 /* UITableView单元格间隔背景色Tests-Info.plist */,
+				358AA5DB19890DB4001F5AA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358AA5AF19890DB3001F5AA1 /* UITableView单元格间隔背景色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358AA5E219890DB4001F5AA1 /* Build configuration list for PBXNativeTarget "UITableView单元格间隔背景色" */;
+			buildPhases = (
+				358AA5AC19890DB3001F5AA1 /* Sources */,
+				358AA5AD19890DB3001F5AA1 /* Frameworks */,
+				358AA5AE19890DB3001F5AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView单元格间隔背景色";
+			productName = "UITableView单元格间隔背景色";
+			productReference = 358AA5B019890DB3001F5AA1 /* UITableView单元格间隔背景色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		358AA5D019890DB4001F5AA1 /* UITableView单元格间隔背景色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358AA5E519890DB4001F5AA1 /* Build configuration list for PBXNativeTarget "UITableView单元格间隔背景色Tests" */;
+			buildPhases = (
+				358AA5CD19890DB4001F5AA1 /* Sources */,
+				358AA5CE19890DB4001F5AA1 /* Frameworks */,
+				358AA5CF19890DB4001F5AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358AA5D719890DB4001F5AA1 /* PBXTargetDependency */,
+			);
+			name = "UITableView单元格间隔背景色Tests";
+			productName = "UITableView单元格间隔背景色Tests";
+			productReference = 358AA5D119890DB4001F5AA1 /* UITableView单元格间隔背景色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358AA5A819890DB3001F5AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					358AA5D019890DB4001F5AA1 = {
+						TestTargetID = 358AA5AF19890DB3001F5AA1;
+					};
+				};
+			};
+			buildConfigurationList = 358AA5AB19890DB3001F5AA1 /* Build configuration list for PBXProject "UITableView单元格间隔背景色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358AA5A719890DB3001F5AA1;
+			productRefGroup = 358AA5B119890DB3001F5AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358AA5AF19890DB3001F5AA1 /* UITableView单元格间隔背景色 */,
+				358AA5D019890DB4001F5AA1 /* UITableView单元格间隔背景色Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358AA5AE19890DB3001F5AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358AA5CC19890DB4001F5AA1 /* Images.xcassets in Resources */,
+				358AA5BE19890DB4001F5AA1 /* InfoPlist.strings in Resources */,
+				358AA5C719890DB4001F5AA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358AA5CF19890DB4001F5AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358AA5DD19890DB4001F5AA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358AA5AC19890DB3001F5AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358AA5CA19890DB4001F5AA1 /* ViewController.m in Sources */,
+				358AA5C419890DB4001F5AA1 /* AppDelegate.m in Sources */,
+				358AA5C019890DB4001F5AA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358AA5CD19890DB4001F5AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358AA5DF19890DB4001F5AA1 /* UITableView________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		358AA5D719890DB4001F5AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 358AA5AF19890DB3001F5AA1 /* UITableView单元格间隔背景色 */;
+			targetProxy = 358AA5D619890DB4001F5AA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		358AA5BC19890DB4001F5AA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358AA5BD19890DB4001F5AA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		358AA5C519890DB4001F5AA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358AA5C619890DB4001F5AA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358AA5DB19890DB4001F5AA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358AA5DC19890DB4001F5AA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358AA5E019890DB4001F5AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		358AA5E119890DB4001F5AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358AA5E319890DB4001F5AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView单元格间隔背景色/UITableView单元格间隔背景色-Prefix.pch";
+				INFOPLIST_FILE = "UITableView单元格间隔背景色/UITableView单元格间隔背景色-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		358AA5E419890DB4001F5AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView单元格间隔背景色/UITableView单元格间隔背景色-Prefix.pch";
+				INFOPLIST_FILE = "UITableView单元格间隔背景色/UITableView单元格间隔背景色-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		358AA5E619890DB4001F5AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITableView单元格间隔背景色.app/UITableView单元格间隔背景色";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView单元格间隔背景色/UITableView单元格间隔背景色-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITableView单元格间隔背景色Tests/UITableView单元格间隔背景色Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		358AA5E719890DB4001F5AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITableView单元格间隔背景色.app/UITableView单元格间隔背景色";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView单元格间隔背景色/UITableView单元格间隔背景色-Prefix.pch";
+				INFOPLIST_FILE = "UITableView单元格间隔背景色Tests/UITableView单元格间隔背景色Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358AA5AB19890DB3001F5AA1 /* Build configuration list for PBXProject "UITableView单元格间隔背景色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358AA5E019890DB4001F5AA1 /* Debug */,
+				358AA5E119890DB4001F5AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358AA5E219890DB4001F5AA1 /* Build configuration list for PBXNativeTarget "UITableView单元格间隔背景色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358AA5E319890DB4001F5AA1 /* Debug */,
+				358AA5E419890DB4001F5AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		358AA5E519890DB4001F5AA1 /* Build configuration list for PBXNativeTarget "UITableView单元格间隔背景色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358AA5E619890DB4001F5AA1 /* Debug */,
+				358AA5E719890DB4001F5AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358AA5A819890DB3001F5AA1 /* Project object */;
+}
