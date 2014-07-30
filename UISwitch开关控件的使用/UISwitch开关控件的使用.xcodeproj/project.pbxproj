@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3599C8901988AF8A009B8F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599C88F1988AF8A009B8F3C /* Foundation.framework */; };
+		3599C8921988AF8A009B8F3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599C8911988AF8A009B8F3C /* CoreGraphics.framework */; };
+		3599C8941988AF8A009B8F3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599C8931988AF8A009B8F3C /* UIKit.framework */; };
+		3599C89A1988AF8A009B8F3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3599C8981988AF8A009B8F3C /* InfoPlist.strings */; };
+		3599C89C1988AF8A009B8F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C89B1988AF8A009B8F3C /* main.m */; };
+		3599C8A01988AF8A009B8F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C89F1988AF8A009B8F3C /* AppDelegate.m */; };
+		3599C8A31988AF8A009B8F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3599C8A11988AF8A009B8F3C /* Main.storyboard */; };
+		3599C8A61988AF8A009B8F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C8A51988AF8A009B8F3C /* ViewController.m */; };
+		3599C8A81988AF8A009B8F3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3599C8A71988AF8A009B8F3C /* Images.xcassets */; };
+		3599C8AF1988AF8A009B8F3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599C8AE1988AF8A009B8F3C /* XCTest.framework */; };
+		3599C8B01988AF8A009B8F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599C88F1988AF8A009B8F3C /* Foundation.framework */; };
+		3599C8B11988AF8A009B8F3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599C8931988AF8A009B8F3C /* UIKit.framework */; };
+		3599C8B91988AF8A009B8F3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3599C8B71988AF8A009B8F3C /* InfoPlist.strings */; };
+		3599C8BB1988AF8A009B8F3C /* UISwitch_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C8BA1988AF8A009B8F3C /* UISwitch_______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3599C8B21988AF8A009B8F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3599C8841988AF8A009B8F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3599C88B1988AF8A009B8F3C;
+			remoteInfo = "UISwitch开关控件的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3599C88C1988AF8A009B8F3C /* UISwitch开关控件的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UISwitch开关控件的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3599C88F1988AF8A009B8F3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3599C8911988AF8A009B8F3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3599C8931988AF8A009B8F3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3599C8971988AF8A009B8F3C /* UISwitch开关控件的使用-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISwitch开关控件的使用-Info.plist"; sourceTree = "<group>"; };
+		3599C8991988AF8A009B8F3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3599C89B1988AF8A009B8F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3599C89D1988AF8A009B8F3C /* UISwitch开关控件的使用-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwitch开关控件的使用-Prefix.pch"; sourceTree = "<group>"; };
+		3599C89E1988AF8A009B8F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3599C89F1988AF8A009B8F3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3599C8A21988AF8A009B8F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3599C8A41988AF8A009B8F3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3599C8A51988AF8A009B8F3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3599C8A71988AF8A009B8F3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3599C8AD1988AF8A009B8F3C /* UISwitch开关控件的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISwitch开关控件的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3599C8AE1988AF8A009B8F3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3599C8B61988AF8A009B8F3C /* UISwitch开关控件的使用Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISwitch开关控件的使用Tests-Info.plist"; sourceTree = "<group>"; };
+		3599C8B81988AF8A009B8F3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3599C8BA1988AF8A009B8F3C /* UISwitch_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISwitch_______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3599C8891988AF8A009B8F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3599C8921988AF8A009B8F3C /* CoreGraphics.framework in Frameworks */,
+				3599C8941988AF8A009B8F3C /* UIKit.framework in Frameworks */,
+				3599C8901988AF8A009B8F3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3599C8AA1988AF8A009B8F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3599C8AF1988AF8A009B8F3C /* XCTest.framework in Frameworks */,
+				3599C8B11988AF8A009B8F3C /* UIKit.framework in Frameworks */,
+				3599C8B01988AF8A009B8F3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3599C8831988AF8A009B8F3C = {
+			isa = PBXGroup;
+			children = (
+				3599C8951988AF8A009B8F3C /* UISwitch开关控件的使用 */,
+				3599C8B41988AF8A009B8F3C /* UISwitch开关控件的使用Tests */,
+				3599C88E1988AF8A009B8F3C /* Frameworks */,
+				3599C88D1988AF8A009B8F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3599C88D1988AF8A009B8F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3599C88C1988AF8A009B8F3C /* UISwitch开关控件的使用.app */,
+				3599C8AD1988AF8A009B8F3C /* UISwitch开关控件的使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3599C88E1988AF8A009B8F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3599C88F1988AF8A009B8F3C /* Foundation.framework */,
+				3599C8911988AF8A009B8F3C /* CoreGraphics.framework */,
+				3599C8931988AF8A009B8F3C /* UIKit.framework */,
+				3599C8AE1988AF8A009B8F3C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3599C8951988AF8A009B8F3C /* UISwitch开关控件的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3599C89E1988AF8A009B8F3C /* AppDelegate.h */,
+				3599C89F1988AF8A009B8F3C /* AppDelegate.m */,
+				3599C8A11988AF8A009B8F3C /* Main.storyboard */,
+				3599C8A41988AF8A009B8F3C /* ViewController.h */,
+				3599C8A51988AF8A009B8F3C /* ViewController.m */,
+				3599C8A71988AF8A009B8F3C /* Images.xcassets */,
+				3599C8961988AF8A009B8F3C /* Supporting Files */,
+			);
+			path = "UISwitch开关控件的使用";
+			sourceTree = "<group>";
+		};
+		3599C8961988AF8A009B8F3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3599C8971988AF8A009B8F3C /* UISwitch开关控件的使用-Info.plist */,
+				3599C8981988AF8A009B8F3C /* InfoPlist.strings */,
+				3599C89B1988AF8A009B8F3C /* main.m */,
+				3599C89D1988AF8A009B8F3C /* UISwitch开关控件的使用-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3599C8B41988AF8A009B8F3C /* UISwitch开关控件的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3599C8BA1988AF8A009B8F3C /* UISwitch_______Tests.m */,
+				3599C8B51988AF8A009B8F3C /* Supporting Files */,
+			);
+			path = "UISwitch开关控件的使用Tests";
+			sourceTree = "<group>";
+		};
+		3599C8B51988AF8A009B8F3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3599C8B61988AF8A009B8F3C /* UISwitch开关控件的使用Tests-Info.plist */,
+				3599C8B71988AF8A009B8F3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3599C88B1988AF8A009B8F3C /* UISwitch开关控件的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3599C8BE1988AF8A009B8F3C /* Build configuration list for PBXNativeTarget "UISwitch开关控件的使用" */;
+			buildPhases = (
+				3599C8881988AF8A009B8F3C /* Sources */,
+				3599C8891988AF8A009B8F3C /* Frameworks */,
+				3599C88A1988AF8A009B8F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UISwitch开关控件的使用";
+			productName = "UISwitch开关控件的使用";
+			productReference = 3599C88C1988AF8A009B8F3C /* UISwitch开关控件的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3599C8AC1988AF8A009B8F3C /* UISwitch开关控件的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3599C8C11988AF8A009B8F3C /* Build configuration list for PBXNativeTarget "UISwitch开关控件的使用Tests" */;
+			buildPhases = (
+				3599C8A91988AF8A009B8F3C /* Sources */,
+				3599C8AA1988AF8A009B8F3C /* Frameworks */,
+				3599C8AB1988AF8A009B8F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3599C8B31988AF8A009B8F3C /* PBXTargetDependency */,
+			);
+			name = "UISwitch开关控件的使用Tests";
+			productName = "UISwitch开关控件的使用Tests";
+			productReference = 3599C8AD1988AF8A009B8F3C /* UISwitch开关控件的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3599C8841988AF8A009B8F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					3599C8AC1988AF8A009B8F3C = {
+						TestTargetID = 3599C88B1988AF8A009B8F3C;
+					};
+				};
+			};
+			buildConfigurationList = 3599C8871988AF8A009B8F3C /* Build configuration list for PBXProject "UISwitch开关控件的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3599C8831988AF8A009B8F3C;
+			productRefGroup = 3599C88D1988AF8A009B8F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3599C88B1988AF8A009B8F3C /* UISwitch开关控件的使用 */,
+				3599C8AC1988AF8A009B8F3C /* UISwitch开关控件的使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3599C88A1988AF8A009B8F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3599C8A81988AF8A009B8F3C /* Images.xcassets in Resources */,
+				3599C89A1988AF8A009B8F3C /* InfoPlist.strings in Resources */,
+				3599C8A31988AF8A009B8F3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3599C8AB1988AF8A009B8F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3599C8B91988AF8A009B8F3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3599C8881988AF8A009B8F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3599C8A61988AF8A009B8F3C /* ViewController.m in Sources */,
+				3599C8A01988AF8A009B8F3C /* AppDelegate.m in Sources */,
+				3599C89C1988AF8A009B8F3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3599C8A91988AF8A009B8F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3599C8BB1988AF8A009B8F3C /* UISwitch_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3599C8B31988AF8A009B8F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3599C88B1988AF8A009B8F3C /* UISwitch开关控件的使用 */;
+			targetProxy = 3599C8B21988AF8A009B8F3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3599C8981988AF8A009B8F3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3599C8991988AF8A009B8F3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3599C8A11988AF8A009B8F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3599C8A21988AF8A009B8F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3599C8B71988AF8A009B8F3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3599C8B81988AF8A009B8F3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3599C8BC1988AF8A009B8F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3599C8BD1988AF8A009B8F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3599C8BF1988AF8A009B8F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISwitch开关控件的使用/UISwitch开关控件的使用-Prefix.pch";
+				INFOPLIST_FILE = "UISwitch开关控件的使用/UISwitch开关控件的使用-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3599C8C01988AF8A009B8F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISwitch开关控件的使用/UISwitch开关控件的使用-Prefix.pch";
+				INFOPLIST_FILE = "UISwitch开关控件的使用/UISwitch开关控件的使用-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3599C8C21988AF8A009B8F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UISwitch开关控件的使用.app/UISwitch开关控件的使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISwitch开关控件的使用/UISwitch开关控件的使用-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UISwitch开关控件的使用Tests/UISwitch开关控件的使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3599C8C31988AF8A009B8F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UISwitch开关控件的使用.app/UISwitch开关控件的使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISwitch开关控件的使用/UISwitch开关控件的使用-Prefix.pch";
+				INFOPLIST_FILE = "UISwitch开关控件的使用Tests/UISwitch开关控件的使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3599C8871988AF8A009B8F3C /* Build configuration list for PBXProject "UISwitch开关控件的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3599C8BC1988AF8A009B8F3C /* Debug */,
+				3599C8BD1988AF8A009B8F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3599C8BE1988AF8A009B8F3C /* Build configuration list for PBXNativeTarget "UISwitch开关控件的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3599C8BF1988AF8A009B8F3C /* Debug */,
+				3599C8C01988AF8A009B8F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3599C8C11988AF8A009B8F3C /* Build configuration list for PBXNativeTarget "UISwitch开关控件的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3599C8C21988AF8A009B8F3C /* Debug */,
+				3599C8C31988AF8A009B8F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3599C8841988AF8A009B8F3C /* Project object */;
+}
