@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3523EA7B198A3EBB0046521A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3523EA7A198A3EBB0046521A /* Foundation.framework */; };
+		3523EA7D198A3EBB0046521A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3523EA7C198A3EBB0046521A /* CoreGraphics.framework */; };
+		3523EA7F198A3EBB0046521A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3523EA7E198A3EBB0046521A /* UIKit.framework */; };
+		3523EA85198A3EBB0046521A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3523EA83198A3EBB0046521A /* InfoPlist.strings */; };
+		3523EA87198A3EBB0046521A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3523EA86198A3EBB0046521A /* main.m */; };
+		3523EA8B198A3EBB0046521A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3523EA8A198A3EBB0046521A /* AppDelegate.m */; };
+		3523EA8E198A3EBB0046521A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3523EA8C198A3EBB0046521A /* Main.storyboard */; };
+		3523EA91198A3EBB0046521A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3523EA90198A3EBB0046521A /* ViewController.m */; };
+		3523EA93198A3EBB0046521A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3523EA92198A3EBB0046521A /* Images.xcassets */; };
+		3523EA9A198A3EBB0046521A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3523EA99198A3EBB0046521A /* XCTest.framework */; };
+		3523EA9B198A3EBB0046521A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3523EA7A198A3EBB0046521A /* Foundation.framework */; };
+		3523EA9C198A3EBB0046521A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3523EA7E198A3EBB0046521A /* UIKit.framework */; };
+		3523EAA4198A3EBB0046521A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3523EAA2198A3EBB0046521A /* InfoPlist.strings */; };
+		3523EAA6198A3EBB0046521A /* NSKeyedArchiver_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3523EAA5198A3EBB0046521A /* NSKeyedArchiver_______Tests.m */; };
+		3523EAB1198A3F030046521A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3523EAB0198A3F030046521A /* Car.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3523EA9D198A3EBB0046521A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3523EA6F198A3EBB0046521A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3523EA76198A3EBB0046521A;
+			remoteInfo = "NSKeyedArchiver存储和解析数据";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3523EA77198A3EBB0046521A /* NSKeyedArchiver存储和解析数据.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSKeyedArchiver存储和解析数据.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3523EA7A198A3EBB0046521A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3523EA7C198A3EBB0046521A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3523EA7E198A3EBB0046521A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3523EA82198A3EBB0046521A /* NSKeyedArchiver存储和解析数据-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSKeyedArchiver存储和解析数据-Info.plist"; sourceTree = "<group>"; };
+		3523EA84198A3EBB0046521A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3523EA86198A3EBB0046521A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3523EA88198A3EBB0046521A /* NSKeyedArchiver存储和解析数据-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSKeyedArchiver存储和解析数据-Prefix.pch"; sourceTree = "<group>"; };
+		3523EA89198A3EBB0046521A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3523EA8A198A3EBB0046521A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3523EA8D198A3EBB0046521A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3523EA8F198A3EBB0046521A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3523EA90198A3EBB0046521A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3523EA92198A3EBB0046521A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3523EA98198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSKeyedArchiver存储和解析数据Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3523EA99198A3EBB0046521A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3523EAA1198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSKeyedArchiver存储和解析数据Tests-Info.plist"; sourceTree = "<group>"; };
+		3523EAA3198A3EBB0046521A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3523EAA5198A3EBB0046521A /* NSKeyedArchiver_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSKeyedArchiver_______Tests.m"; sourceTree = "<group>"; };
+		3523EAAF198A3F030046521A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		3523EAB0198A3F030046521A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3523EA74198A3EBB0046521A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523EA7D198A3EBB0046521A /* CoreGraphics.framework in Frameworks */,
+				3523EA7F198A3EBB0046521A /* UIKit.framework in Frameworks */,
+				3523EA7B198A3EBB0046521A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3523EA95198A3EBB0046521A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523EA9A198A3EBB0046521A /* XCTest.framework in Frameworks */,
+				3523EA9C198A3EBB0046521A /* UIKit.framework in Frameworks */,
+				3523EA9B198A3EBB0046521A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3523EA6E198A3EBB0046521A = {
+			isa = PBXGroup;
+			children = (
+				3523EA80198A3EBB0046521A /* NSKeyedArchiver存储和解析数据 */,
+				3523EA9F198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests */,
+				3523EA79198A3EBB0046521A /* Frameworks */,
+				3523EA78198A3EBB0046521A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3523EA78198A3EBB0046521A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3523EA77198A3EBB0046521A /* NSKeyedArchiver存储和解析数据.app */,
+				3523EA98198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3523EA79198A3EBB0046521A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3523EA7A198A3EBB0046521A /* Foundation.framework */,
+				3523EA7C198A3EBB0046521A /* CoreGraphics.framework */,
+				3523EA7E198A3EBB0046521A /* UIKit.framework */,
+				3523EA99198A3EBB0046521A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3523EA80198A3EBB0046521A /* NSKeyedArchiver存储和解析数据 */ = {
+			isa = PBXGroup;
+			children = (
+				3523EA89198A3EBB0046521A /* AppDelegate.h */,
+				3523EA8A198A3EBB0046521A /* AppDelegate.m */,
+				3523EAAF198A3F030046521A /* Car.h */,
+				3523EAB0198A3F030046521A /* Car.m */,
+				3523EA8C198A3EBB0046521A /* Main.storyboard */,
+				3523EA8F198A3EBB0046521A /* ViewController.h */,
+				3523EA90198A3EBB0046521A /* ViewController.m */,
+				3523EA92198A3EBB0046521A /* Images.xcassets */,
+				3523EA81198A3EBB0046521A /* Supporting Files */,
+			);
+			path = "NSKeyedArchiver存储和解析数据";
+			sourceTree = "<group>";
+		};
+		3523EA81198A3EBB0046521A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3523EA82198A3EBB0046521A /* NSKeyedArchiver存储和解析数据-Info.plist */,
+				3523EA83198A3EBB0046521A /* InfoPlist.strings */,
+				3523EA86198A3EBB0046521A /* main.m */,
+				3523EA88198A3EBB0046521A /* NSKeyedArchiver存储和解析数据-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3523EA9F198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3523EAA5198A3EBB0046521A /* NSKeyedArchiver_______Tests.m */,
+				3523EAA0198A3EBB0046521A /* Supporting Files */,
+			);
+			path = "NSKeyedArchiver存储和解析数据Tests";
+			sourceTree = "<group>";
+		};
+		3523EAA0198A3EBB0046521A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3523EAA1198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests-Info.plist */,
+				3523EAA2198A3EBB0046521A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3523EA76198A3EBB0046521A /* NSKeyedArchiver存储和解析数据 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3523EAA9198A3EBB0046521A /* Build configuration list for PBXNativeTarget "NSKeyedArchiver存储和解析数据" */;
+			buildPhases = (
+				3523EA73198A3EBB0046521A /* Sources */,
+				3523EA74198A3EBB0046521A /* Frameworks */,
+				3523EA75198A3EBB0046521A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSKeyedArchiver存储和解析数据";
+			productName = "NSKeyedArchiver存储和解析数据";
+			productReference = 3523EA77198A3EBB0046521A /* NSKeyedArchiver存储和解析数据.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3523EA97198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3523EAAC198A3EBB0046521A /* Build configuration list for PBXNativeTarget "NSKeyedArchiver存储和解析数据Tests" */;
+			buildPhases = (
+				3523EA94198A3EBB0046521A /* Sources */,
+				3523EA95198A3EBB0046521A /* Frameworks */,
+				3523EA96198A3EBB0046521A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3523EA9E198A3EBB0046521A /* PBXTargetDependency */,
+			);
+			name = "NSKeyedArchiver存储和解析数据Tests";
+			productName = "NSKeyedArchiver存储和解析数据Tests";
+			productReference = 3523EA98198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3523EA6F198A3EBB0046521A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					3523EA97198A3EBB0046521A = {
+						TestTargetID = 3523EA76198A3EBB0046521A;
+					};
+				};
+			};
+			buildConfigurationList = 3523EA72198A3EBB0046521A /* Build configuration list for PBXProject "NSKeyedArchiver存储和解析数据" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3523EA6E198A3EBB0046521A;
+			productRefGroup = 3523EA78198A3EBB0046521A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3523EA76198A3EBB0046521A /* NSKeyedArchiver存储和解析数据 */,
+				3523EA97198A3EBB0046521A /* NSKeyedArchiver存储和解析数据Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3523EA75198A3EBB0046521A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523EA93198A3EBB0046521A /* Images.xcassets in Resources */,
+				3523EA85198A3EBB0046521A /* InfoPlist.strings in Resources */,
+				3523EA8E198A3EBB0046521A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3523EA96198A3EBB0046521A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523EAA4198A3EBB0046521A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3523EA73198A3EBB0046521A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523EA91198A3EBB0046521A /* ViewController.m in Sources */,
+				3523EA8B198A3EBB0046521A /* AppDelegate.m in Sources */,
+				3523EAB1198A3F030046521A /* Car.m in Sources */,
+				3523EA87198A3EBB0046521A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3523EA94198A3EBB0046521A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523EAA6198A3EBB0046521A /* NSKeyedArchiver_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3523EA9E198A3EBB0046521A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3523EA76198A3EBB0046521A /* NSKeyedArchiver存储和解析数据 */;
+			targetProxy = 3523EA9D198A3EBB0046521A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3523EA83198A3EBB0046521A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3523EA84198A3EBB0046521A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3523EA8C198A3EBB0046521A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3523EA8D198A3EBB0046521A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3523EAA2198A3EBB0046521A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3523EAA3198A3EBB0046521A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3523EAA7198A3EBB0046521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3523EAA8198A3EBB0046521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3523EAAA198A3EBB0046521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSKeyedArchiver存储和解析数据/NSKeyedArchiver存储和解析数据-Prefix.pch";
+				INFOPLIST_FILE = "NSKeyedArchiver存储和解析数据/NSKeyedArchiver存储和解析数据-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3523EAAB198A3EBB0046521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSKeyedArchiver存储和解析数据/NSKeyedArchiver存储和解析数据-Prefix.pch";
+				INFOPLIST_FILE = "NSKeyedArchiver存储和解析数据/NSKeyedArchiver存储和解析数据-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3523EAAD198A3EBB0046521A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSKeyedArchiver存储和解析数据.app/NSKeyedArchiver存储和解析数据";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSKeyedArchiver存储和解析数据/NSKeyedArchiver存储和解析数据-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSKeyedArchiver存储和解析数据Tests/NSKeyedArchiver存储和解析数据Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3523EAAE198A3EBB0046521A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSKeyedArchiver存储和解析数据.app/NSKeyedArchiver存储和解析数据";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSKeyedArchiver存储和解析数据/NSKeyedArchiver存储和解析数据-Prefix.pch";
+				INFOPLIST_FILE = "NSKeyedArchiver存储和解析数据Tests/NSKeyedArchiver存储和解析数据Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3523EA72198A3EBB0046521A /* Build configuration list for PBXProject "NSKeyedArchiver存储和解析数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3523EAA7198A3EBB0046521A /* Debug */,
+				3523EAA8198A3EBB0046521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3523EAA9198A3EBB0046521A /* Build configuration list for PBXNativeTarget "NSKeyedArchiver存储和解析数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3523EAAA198A3EBB0046521A /* Debug */,
+				3523EAAB198A3EBB0046521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3523EAAC198A3EBB0046521A /* Build configuration list for PBXNativeTarget "NSKeyedArchiver存储和解析数据Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3523EAAD198A3EBB0046521A /* Debug */,
+				3523EAAE198A3EBB0046521A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3523EA6F198A3EBB0046521A /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E5C6A6C0-8F2B-4565-BAAA-38061ADD335F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>截取某一帧作为影片缩略图</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>509FD58A-E823-4133-B3B7-59F75B00882A</key>
+		<string>https://github.com/jiaxianhua/Xcode5Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>截取某一帧作为影片缩略图/截取某一帧作为影片缩略图.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>509FD58A-E823-4133-B3B7-59F75B00882A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jiaxianhua/Xcode5Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>509FD58A-E823-4133-B3B7-59F75B00882A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>509FD58A-E823-4133-B3B7-59F75B00882A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode5Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

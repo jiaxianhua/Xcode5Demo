@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3556807F198A19A500CD6488 /* love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3556807E198A19A500CD6488 /* love.mp3 */; };
+		359502E9198A179800C36297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359502E8198A179800C36297 /* Foundation.framework */; };
+		359502EB198A179800C36297 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359502EA198A179800C36297 /* CoreGraphics.framework */; };
+		359502ED198A179800C36297 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359502EC198A179800C36297 /* UIKit.framework */; };
+		359502F3198A179800C36297 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 359502F1198A179800C36297 /* InfoPlist.strings */; };
+		359502F5198A179800C36297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359502F4198A179800C36297 /* main.m */; };
+		359502F9198A179800C36297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359502F8198A179800C36297 /* AppDelegate.m */; };
+		359502FC198A179800C36297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359502FA198A179800C36297 /* Main.storyboard */; };
+		359502FF198A179800C36297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359502FE198A179800C36297 /* ViewController.m */; };
+		35950301198A179800C36297 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35950300198A179800C36297 /* Images.xcassets */; };
+		35950308198A179900C36297 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950307198A179900C36297 /* XCTest.framework */; };
+		35950309198A179900C36297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359502E8198A179800C36297 /* Foundation.framework */; };
+		3595030A198A179900C36297 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359502EC198A179800C36297 /* UIKit.framework */; };
+		35950312198A179900C36297 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35950310198A179900C36297 /* InfoPlist.strings */; };
+		35950314198A179900C36297 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950313198A179900C36297 /* _______Tests.m */; };
+		3595031E198A186600C36297 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595031D198A186600C36297 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3595030B198A179900C36297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359502DD198A179800C36297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359502E4198A179800C36297;
+			remoteInfo = "音乐的背景播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3556807E198A19A500CD6488 /* love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = love.mp3; sourceTree = "<group>"; };
+		359502E5198A179800C36297 /* 音乐的背景播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音乐的背景播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359502E8198A179800C36297 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		359502EA198A179800C36297 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		359502EC198A179800C36297 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		359502F0198A179800C36297 /* 音乐的背景播放-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "音乐的背景播放-Info.plist"; sourceTree = "<group>"; };
+		359502F2198A179800C36297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		359502F4198A179800C36297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		359502F6198A179800C36297 /* 音乐的背景播放-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "音乐的背景播放-Prefix.pch"; sourceTree = "<group>"; };
+		359502F7198A179800C36297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		359502F8198A179800C36297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		359502FB198A179800C36297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		359502FD198A179800C36297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		359502FE198A179800C36297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35950300198A179800C36297 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35950306198A179900C36297 /* 音乐的背景播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音乐的背景播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35950307198A179900C36297 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3595030F198A179900C36297 /* 音乐的背景播放Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "音乐的背景播放Tests-Info.plist"; sourceTree = "<group>"; };
+		35950311198A179900C36297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35950313198A179900C36297 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		3595031D198A186600C36297 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359502E2198A179800C36297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3595031E198A186600C36297 /* AVFoundation.framework in Frameworks */,
+				359502EB198A179800C36297 /* CoreGraphics.framework in Frameworks */,
+				359502ED198A179800C36297 /* UIKit.framework in Frameworks */,
+				359502E9198A179800C36297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35950303198A179900C36297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950308198A179900C36297 /* XCTest.framework in Frameworks */,
+				3595030A198A179900C36297 /* UIKit.framework in Frameworks */,
+				35950309198A179900C36297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359502DC198A179800C36297 = {
+			isa = PBXGroup;
+			children = (
+				359502EE198A179800C36297 /* 音乐的背景播放 */,
+				3595030D198A179900C36297 /* 音乐的背景播放Tests */,
+				359502E7198A179800C36297 /* Frameworks */,
+				359502E6198A179800C36297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359502E6198A179800C36297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359502E5198A179800C36297 /* 音乐的背景播放.app */,
+				35950306198A179900C36297 /* 音乐的背景播放Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359502E7198A179800C36297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3595031D198A186600C36297 /* AVFoundation.framework */,
+				359502E8198A179800C36297 /* Foundation.framework */,
+				359502EA198A179800C36297 /* CoreGraphics.framework */,
+				359502EC198A179800C36297 /* UIKit.framework */,
+				35950307198A179900C36297 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		359502EE198A179800C36297 /* 音乐的背景播放 */ = {
+			isa = PBXGroup;
+			children = (
+				359502F7198A179800C36297 /* AppDelegate.h */,
+				359502F8198A179800C36297 /* AppDelegate.m */,
+				359502FA198A179800C36297 /* Main.storyboard */,
+				359502FD198A179800C36297 /* ViewController.h */,
+				359502FE198A179800C36297 /* ViewController.m */,
+				35950300198A179800C36297 /* Images.xcassets */,
+				359502EF198A179800C36297 /* Supporting Files */,
+			);
+			path = "音乐的背景播放";
+			sourceTree = "<group>";
+		};
+		359502EF198A179800C36297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3556807E198A19A500CD6488 /* love.mp3 */,
+				359502F0198A179800C36297 /* 音乐的背景播放-Info.plist */,
+				359502F1198A179800C36297 /* InfoPlist.strings */,
+				359502F4198A179800C36297 /* main.m */,
+				359502F6198A179800C36297 /* 音乐的背景播放-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3595030D198A179900C36297 /* 音乐的背景播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35950313198A179900C36297 /* _______Tests.m */,
+				3595030E198A179900C36297 /* Supporting Files */,
+			);
+			path = "音乐的背景播放Tests";
+			sourceTree = "<group>";
+		};
+		3595030E198A179900C36297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3595030F198A179900C36297 /* 音乐的背景播放Tests-Info.plist */,
+				35950310198A179900C36297 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359502E4198A179800C36297 /* 音乐的背景播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35950317198A179900C36297 /* Build configuration list for PBXNativeTarget "音乐的背景播放" */;
+			buildPhases = (
+				359502E1198A179800C36297 /* Sources */,
+				359502E2198A179800C36297 /* Frameworks */,
+				359502E3198A179800C36297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音乐的背景播放";
+			productName = "音乐的背景播放";
+			productReference = 359502E5198A179800C36297 /* 音乐的背景播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35950305198A179900C36297 /* 音乐的背景播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3595031A198A179900C36297 /* Build configuration list for PBXNativeTarget "音乐的背景播放Tests" */;
+			buildPhases = (
+				35950302198A179900C36297 /* Sources */,
+				35950303198A179900C36297 /* Frameworks */,
+				35950304198A179900C36297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3595030C198A179900C36297 /* PBXTargetDependency */,
+			);
+			name = "音乐的背景播放Tests";
+			productName = "音乐的背景播放Tests";
+			productReference = 35950306198A179900C36297 /* 音乐的背景播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359502DD198A179800C36297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					35950305198A179900C36297 = {
+						TestTargetID = 359502E4198A179800C36297;
+					};
+				};
+			};
+			buildConfigurationList = 359502E0198A179800C36297 /* Build configuration list for PBXProject "音乐的背景播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 359502DC198A179800C36297;
+			productRefGroup = 359502E6198A179800C36297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359502E4198A179800C36297 /* 音乐的背景播放 */,
+				35950305198A179900C36297 /* 音乐的背景播放Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359502E3198A179800C36297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3556807F198A19A500CD6488 /* love.mp3 in Resources */,
+				35950301198A179800C36297 /* Images.xcassets in Resources */,
+				359502F3198A179800C36297 /* InfoPlist.strings in Resources */,
+				359502FC198A179800C36297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35950304198A179900C36297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950312198A179900C36297 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359502E1198A179800C36297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359502FF198A179800C36297 /* ViewController.m in Sources */,
+				359502F9198A179800C36297 /* AppDelegate.m in Sources */,
+				359502F5198A179800C36297 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35950302198A179900C36297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950314198A179900C36297 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3595030C198A179900C36297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359502E4198A179800C36297 /* 音乐的背景播放 */;
+			targetProxy = 3595030B198A179900C36297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		359502F1198A179800C36297 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359502F2198A179800C36297 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		359502FA198A179800C36297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359502FB198A179800C36297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35950310198A179900C36297 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35950311198A179900C36297 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35950315198A179900C36297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35950316198A179900C36297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35950318198A179900C36297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "音乐的背景播放/音乐的背景播放-Prefix.pch";
+				INFOPLIST_FILE = "音乐的背景播放/音乐的背景播放-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35950319198A179900C36297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "音乐的背景播放/音乐的背景播放-Prefix.pch";
+				INFOPLIST_FILE = "音乐的背景播放/音乐的背景播放-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3595031B198A179900C36297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/音乐的背景播放.app/音乐的背景播放";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "音乐的背景播放/音乐的背景播放-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "音乐的背景播放Tests/音乐的背景播放Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3595031C198A179900C36297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/音乐的背景播放.app/音乐的背景播放";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "音乐的背景播放/音乐的背景播放-Prefix.pch";
+				INFOPLIST_FILE = "音乐的背景播放Tests/音乐的背景播放Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		359502E0198A179800C36297 /* Build configuration list for PBXProject "音乐的背景播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35950315198A179900C36297 /* Debug */,
+				35950316198A179900C36297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35950317198A179900C36297 /* Build configuration list for PBXNativeTarget "音乐的背景播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35950318198A179900C36297 /* Debug */,
+				35950319198A179900C36297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3595031A198A179900C36297 /* Build configuration list for PBXNativeTarget "音乐的背景播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3595031B198A179900C36297 /* Debug */,
+				3595031C198A179900C36297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359502DD198A179800C36297 /* Project object */;
+}

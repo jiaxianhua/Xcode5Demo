@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3577AFC719897B45008E9BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577AFC619897B45008E9BDA /* Foundation.framework */; };
+		3577AFC919897B45008E9BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577AFC819897B45008E9BDA /* CoreGraphics.framework */; };
+		3577AFCB19897B45008E9BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577AFCA19897B45008E9BDA /* UIKit.framework */; };
+		3577AFD119897B45008E9BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3577AFCF19897B45008E9BDA /* InfoPlist.strings */; };
+		3577AFD319897B45008E9BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577AFD219897B45008E9BDA /* main.m */; };
+		3577AFD719897B45008E9BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577AFD619897B45008E9BDA /* AppDelegate.m */; };
+		3577AFDA19897B45008E9BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3577AFD819897B45008E9BDA /* Main.storyboard */; };
+		3577AFDD19897B45008E9BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577AFDC19897B45008E9BDA /* ViewController.m */; };
+		3577AFDF19897B45008E9BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577AFDE19897B45008E9BDA /* Images.xcassets */; };
+		3577AFE619897B45008E9BDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577AFE519897B45008E9BDA /* XCTest.framework */; };
+		3577AFE719897B45008E9BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577AFC619897B45008E9BDA /* Foundation.framework */; };
+		3577AFE819897B45008E9BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577AFCA19897B45008E9BDA /* UIKit.framework */; };
+		3577AFF019897B45008E9BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3577AFEE19897B45008E9BDA /* InfoPlist.strings */; };
+		3577AFF219897B45008E9BDA /* __SystemSoundId______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577AFF119897B45008E9BDA /* __SystemSoundId______Tests.m */; };
+		3577B0E319898079008E9BDA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577B0E219898079008E9BDA /* AVFoundation.framework */; };
+		3577B0E5198983BD008E9BDA /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3577B0E4198983BD008E9BDA /* dog.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3577AFE919897B45008E9BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3577AFBB19897B45008E9BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3577AFC219897B45008E9BDA;
+			remoteInfo = "使用SystemSoundId播放简短声音";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3577AFC319897B45008E9BDA /* 使用SystemSoundId播放简短声音.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用SystemSoundId播放简短声音.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3577AFC619897B45008E9BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3577AFC819897B45008E9BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3577AFCA19897B45008E9BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3577AFCE19897B45008E9BDA /* 使用SystemSoundId播放简短声音-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "使用SystemSoundId播放简短声音-Info.plist"; sourceTree = "<group>"; };
+		3577AFD019897B45008E9BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3577AFD219897B45008E9BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3577AFD419897B45008E9BDA /* 使用SystemSoundId播放简短声音-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "使用SystemSoundId播放简短声音-Prefix.pch"; sourceTree = "<group>"; };
+		3577AFD519897B45008E9BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3577AFD619897B45008E9BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3577AFD919897B45008E9BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3577AFDB19897B45008E9BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3577AFDC19897B45008E9BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3577AFDE19897B45008E9BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3577AFE419897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "使用SystemSoundId播放简短声音Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3577AFE519897B45008E9BDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3577AFED19897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "使用SystemSoundId播放简短声音Tests-Info.plist"; sourceTree = "<group>"; };
+		3577AFEF19897B45008E9BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3577AFF119897B45008E9BDA /* __SystemSoundId______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__SystemSoundId______Tests.m"; sourceTree = "<group>"; };
+		3577B0E219898079008E9BDA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3577B0E4198983BD008E9BDA /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3577AFC019897B45008E9BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577B0E319898079008E9BDA /* AVFoundation.framework in Frameworks */,
+				3577AFC919897B45008E9BDA /* CoreGraphics.framework in Frameworks */,
+				3577AFCB19897B45008E9BDA /* UIKit.framework in Frameworks */,
+				3577AFC719897B45008E9BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3577AFE119897B45008E9BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577AFE619897B45008E9BDA /* XCTest.framework in Frameworks */,
+				3577AFE819897B45008E9BDA /* UIKit.framework in Frameworks */,
+				3577AFE719897B45008E9BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3577AFBA19897B45008E9BDA = {
+			isa = PBXGroup;
+			children = (
+				3577AFCC19897B45008E9BDA /* 使用SystemSoundId播放简短声音 */,
+				3577AFEB19897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests */,
+				3577AFC519897B45008E9BDA /* Frameworks */,
+				3577AFC419897B45008E9BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3577AFC419897B45008E9BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3577AFC319897B45008E9BDA /* 使用SystemSoundId播放简短声音.app */,
+				3577AFE419897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3577AFC519897B45008E9BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3577B0E219898079008E9BDA /* AVFoundation.framework */,
+				3577AFC619897B45008E9BDA /* Foundation.framework */,
+				3577AFC819897B45008E9BDA /* CoreGraphics.framework */,
+				3577AFCA19897B45008E9BDA /* UIKit.framework */,
+				3577AFE519897B45008E9BDA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3577AFCC19897B45008E9BDA /* 使用SystemSoundId播放简短声音 */ = {
+			isa = PBXGroup;
+			children = (
+				3577AFD519897B45008E9BDA /* AppDelegate.h */,
+				3577AFD619897B45008E9BDA /* AppDelegate.m */,
+				3577AFD819897B45008E9BDA /* Main.storyboard */,
+				3577AFDB19897B45008E9BDA /* ViewController.h */,
+				3577AFDC19897B45008E9BDA /* ViewController.m */,
+				3577AFDE19897B45008E9BDA /* Images.xcassets */,
+				3577AFCD19897B45008E9BDA /* Supporting Files */,
+			);
+			path = "使用SystemSoundId播放简短声音";
+			sourceTree = "<group>";
+		};
+		3577AFCD19897B45008E9BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3577B0E4198983BD008E9BDA /* dog.mp3 */,
+				3577AFCE19897B45008E9BDA /* 使用SystemSoundId播放简短声音-Info.plist */,
+				3577AFCF19897B45008E9BDA /* InfoPlist.strings */,
+				3577AFD219897B45008E9BDA /* main.m */,
+				3577AFD419897B45008E9BDA /* 使用SystemSoundId播放简短声音-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3577AFEB19897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3577AFF119897B45008E9BDA /* __SystemSoundId______Tests.m */,
+				3577AFEC19897B45008E9BDA /* Supporting Files */,
+			);
+			path = "使用SystemSoundId播放简短声音Tests";
+			sourceTree = "<group>";
+		};
+		3577AFEC19897B45008E9BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3577AFED19897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests-Info.plist */,
+				3577AFEE19897B45008E9BDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3577AFC219897B45008E9BDA /* 使用SystemSoundId播放简短声音 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3577AFF519897B45008E9BDA /* Build configuration list for PBXNativeTarget "使用SystemSoundId播放简短声音" */;
+			buildPhases = (
+				3577AFBF19897B45008E9BDA /* Sources */,
+				3577AFC019897B45008E9BDA /* Frameworks */,
+				3577AFC119897B45008E9BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用SystemSoundId播放简短声音";
+			productName = "使用SystemSoundId播放简短声音";
+			productReference = 3577AFC319897B45008E9BDA /* 使用SystemSoundId播放简短声音.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3577AFE319897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3577AFF819897B45008E9BDA /* Build configuration list for PBXNativeTarget "使用SystemSoundId播放简短声音Tests" */;
+			buildPhases = (
+				3577AFE019897B45008E9BDA /* Sources */,
+				3577AFE119897B45008E9BDA /* Frameworks */,
+				3577AFE219897B45008E9BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3577AFEA19897B45008E9BDA /* PBXTargetDependency */,
+			);
+			name = "使用SystemSoundId播放简短声音Tests";
+			productName = "使用SystemSoundId播放简短声音Tests";
+			productReference = 3577AFE419897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3577AFBB19897B45008E9BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					3577AFE319897B45008E9BDA = {
+						TestTargetID = 3577AFC219897B45008E9BDA;
+					};
+				};
+			};
+			buildConfigurationList = 3577AFBE19897B45008E9BDA /* Build configuration list for PBXProject "使用SystemSoundId播放简短声音" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3577AFBA19897B45008E9BDA;
+			productRefGroup = 3577AFC419897B45008E9BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3577AFC219897B45008E9BDA /* 使用SystemSoundId播放简短声音 */,
+				3577AFE319897B45008E9BDA /* 使用SystemSoundId播放简短声音Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3577AFC119897B45008E9BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577AFDF19897B45008E9BDA /* Images.xcassets in Resources */,
+				3577B0E5198983BD008E9BDA /* dog.mp3 in Resources */,
+				3577AFD119897B45008E9BDA /* InfoPlist.strings in Resources */,
+				3577AFDA19897B45008E9BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3577AFE219897B45008E9BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577AFF019897B45008E9BDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3577AFBF19897B45008E9BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577AFDD19897B45008E9BDA /* ViewController.m in Sources */,
+				3577AFD719897B45008E9BDA /* AppDelegate.m in Sources */,
+				3577AFD319897B45008E9BDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3577AFE019897B45008E9BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577AFF219897B45008E9BDA /* __SystemSoundId______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3577AFEA19897B45008E9BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3577AFC219897B45008E9BDA /* 使用SystemSoundId播放简短声音 */;
+			targetProxy = 3577AFE919897B45008E9BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3577AFCF19897B45008E9BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3577AFD019897B45008E9BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3577AFD819897B45008E9BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3577AFD919897B45008E9BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3577AFEE19897B45008E9BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3577AFEF19897B45008E9BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3577AFF319897B45008E9BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3577AFF419897B45008E9BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3577AFF619897B45008E9BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用SystemSoundId播放简短声音/使用SystemSoundId播放简短声音-Prefix.pch";
+				INFOPLIST_FILE = "使用SystemSoundId播放简短声音/使用SystemSoundId播放简短声音-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3577AFF719897B45008E9BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用SystemSoundId播放简短声音/使用SystemSoundId播放简短声音-Prefix.pch";
+				INFOPLIST_FILE = "使用SystemSoundId播放简短声音/使用SystemSoundId播放简短声音-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3577AFF919897B45008E9BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/使用SystemSoundId播放简短声音.app/使用SystemSoundId播放简短声音";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用SystemSoundId播放简短声音/使用SystemSoundId播放简短声音-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "使用SystemSoundId播放简短声音Tests/使用SystemSoundId播放简短声音Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3577AFFA19897B45008E9BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/使用SystemSoundId播放简短声音.app/使用SystemSoundId播放简短声音";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用SystemSoundId播放简短声音/使用SystemSoundId播放简短声音-Prefix.pch";
+				INFOPLIST_FILE = "使用SystemSoundId播放简短声音Tests/使用SystemSoundId播放简短声音Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3577AFBE19897B45008E9BDA /* Build configuration list for PBXProject "使用SystemSoundId播放简短声音" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577AFF319897B45008E9BDA /* Debug */,
+				3577AFF419897B45008E9BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3577AFF519897B45008E9BDA /* Build configuration list for PBXNativeTarget "使用SystemSoundId播放简短声音" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577AFF619897B45008E9BDA /* Debug */,
+				3577AFF719897B45008E9BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3577AFF819897B45008E9BDA /* Build configuration list for PBXNativeTarget "使用SystemSoundId播放简短声音Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577AFF919897B45008E9BDA /* Debug */,
+				3577AFFA19897B45008E9BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3577AFBB19897B45008E9BDA /* Project object */;
+}
