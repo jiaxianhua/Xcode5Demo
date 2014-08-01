@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>082C996E-ED6B-4109-88ED-5868C72AD3A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>邮件功能的使用</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C03D8EB-F494-4E32-9ACD-DC1D64D73B73</key>
+		<string>https://github.com/jiaxianhua/Xcode5Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>邮件功能的使用/邮件功能的使用.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C03D8EB-F494-4E32-9ACD-DC1D64D73B73</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jiaxianhua/Xcode5Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C03D8EB-F494-4E32-9ACD-DC1D64D73B73</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C03D8EB-F494-4E32-9ACD-DC1D64D73B73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode5Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

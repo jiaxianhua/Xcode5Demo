@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35FA66F0198AAE98007E1F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA66EF198AAE98007E1F2F /* Foundation.framework */; };
+		35FA66F2198AAE98007E1F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA66F1198AAE98007E1F2F /* CoreGraphics.framework */; };
+		35FA66F4198AAE98007E1F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA66F3198AAE98007E1F2F /* UIKit.framework */; };
+		35FA66FA198AAE98007E1F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FA66F8198AAE98007E1F2F /* InfoPlist.strings */; };
+		35FA66FC198AAE98007E1F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA66FB198AAE98007E1F2F /* main.m */; };
+		35FA6700198AAE98007E1F2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA66FF198AAE98007E1F2F /* AppDelegate.m */; };
+		35FA6703198AAE98007E1F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FA6701198AAE98007E1F2F /* Main.storyboard */; };
+		35FA6706198AAE98007E1F2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA6705198AAE98007E1F2F /* ViewController.m */; };
+		35FA6708198AAE98007E1F2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FA6707198AAE98007E1F2F /* Images.xcassets */; };
+		35FA670F198AAE98007E1F2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA670E198AAE98007E1F2F /* XCTest.framework */; };
+		35FA6710198AAE98007E1F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA66EF198AAE98007E1F2F /* Foundation.framework */; };
+		35FA6711198AAE98007E1F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA66F3198AAE98007E1F2F /* UIKit.framework */; };
+		35FA6719198AAE98007E1F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FA6717198AAE98007E1F2F /* InfoPlist.strings */; };
+		35FA671B198AAE98007E1F2F /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA671A198AAE98007E1F2F /* ___________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35FA6712198AAE98007E1F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35FA66E4198AAE98007E1F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35FA66EB198AAE98007E1F2F;
+			remoteInfo = "使用多线程下载网络图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35FA66EC198AAE98007E1F2F /* 使用多线程下载网络图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用多线程下载网络图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FA66EF198AAE98007E1F2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35FA66F1198AAE98007E1F2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35FA66F3198AAE98007E1F2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35FA66F7198AAE98007E1F2F /* 使用多线程下载网络图片-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "使用多线程下载网络图片-Info.plist"; sourceTree = "<group>"; };
+		35FA66F9198AAE98007E1F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35FA66FB198AAE98007E1F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35FA66FD198AAE98007E1F2F /* 使用多线程下载网络图片-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "使用多线程下载网络图片-Prefix.pch"; sourceTree = "<group>"; };
+		35FA66FE198AAE98007E1F2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35FA66FF198AAE98007E1F2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35FA6702198AAE98007E1F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35FA6704198AAE98007E1F2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35FA6705198AAE98007E1F2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35FA6707198AAE98007E1F2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35FA670D198AAE98007E1F2F /* 使用多线程下载网络图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "使用多线程下载网络图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FA670E198AAE98007E1F2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		35FA6716198AAE98007E1F2F /* 使用多线程下载网络图片Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "使用多线程下载网络图片Tests-Info.plist"; sourceTree = "<group>"; };
+		35FA6718198AAE98007E1F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35FA671A198AAE98007E1F2F /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FA66E9198AAE98007E1F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA66F2198AAE98007E1F2F /* CoreGraphics.framework in Frameworks */,
+				35FA66F4198AAE98007E1F2F /* UIKit.framework in Frameworks */,
+				35FA66F0198AAE98007E1F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FA670A198AAE98007E1F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA670F198AAE98007E1F2F /* XCTest.framework in Frameworks */,
+				35FA6711198AAE98007E1F2F /* UIKit.framework in Frameworks */,
+				35FA6710198AAE98007E1F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35FA66E3198AAE98007E1F2F = {
+			isa = PBXGroup;
+			children = (
+				35FA66F5198AAE98007E1F2F /* 使用多线程下载网络图片 */,
+				35FA6714198AAE98007E1F2F /* 使用多线程下载网络图片Tests */,
+				35FA66EE198AAE98007E1F2F /* Frameworks */,
+				35FA66ED198AAE98007E1F2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35FA66ED198AAE98007E1F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35FA66EC198AAE98007E1F2F /* 使用多线程下载网络图片.app */,
+				35FA670D198AAE98007E1F2F /* 使用多线程下载网络图片Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35FA66EE198AAE98007E1F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FA66EF198AAE98007E1F2F /* Foundation.framework */,
+				35FA66F1198AAE98007E1F2F /* CoreGraphics.framework */,
+				35FA66F3198AAE98007E1F2F /* UIKit.framework */,
+				35FA670E198AAE98007E1F2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35FA66F5198AAE98007E1F2F /* 使用多线程下载网络图片 */ = {
+			isa = PBXGroup;
+			children = (
+				35FA66FE198AAE98007E1F2F /* AppDelegate.h */,
+				35FA66FF198AAE98007E1F2F /* AppDelegate.m */,
+				35FA6701198AAE98007E1F2F /* Main.storyboard */,
+				35FA6704198AAE98007E1F2F /* ViewController.h */,
+				35FA6705198AAE98007E1F2F /* ViewController.m */,
+				35FA6707198AAE98007E1F2F /* Images.xcassets */,
+				35FA66F6198AAE98007E1F2F /* Supporting Files */,
+			);
+			path = "使用多线程下载网络图片";
+			sourceTree = "<group>";
+		};
+		35FA66F6198AAE98007E1F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FA66F7198AAE98007E1F2F /* 使用多线程下载网络图片-Info.plist */,
+				35FA66F8198AAE98007E1F2F /* InfoPlist.strings */,
+				35FA66FB198AAE98007E1F2F /* main.m */,
+				35FA66FD198AAE98007E1F2F /* 使用多线程下载网络图片-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35FA6714198AAE98007E1F2F /* 使用多线程下载网络图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35FA671A198AAE98007E1F2F /* ___________Tests.m */,
+				35FA6715198AAE98007E1F2F /* Supporting Files */,
+			);
+			path = "使用多线程下载网络图片Tests";
+			sourceTree = "<group>";
+		};
+		35FA6715198AAE98007E1F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FA6716198AAE98007E1F2F /* 使用多线程下载网络图片Tests-Info.plist */,
+				35FA6717198AAE98007E1F2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35FA66EB198AAE98007E1F2F /* 使用多线程下载网络图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FA671E198AAE98007E1F2F /* Build configuration list for PBXNativeTarget "使用多线程下载网络图片" */;
+			buildPhases = (
+				35FA66E8198AAE98007E1F2F /* Sources */,
+				35FA66E9198AAE98007E1F2F /* Frameworks */,
+				35FA66EA198AAE98007E1F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用多线程下载网络图片";
+			productName = "使用多线程下载网络图片";
+			productReference = 35FA66EC198AAE98007E1F2F /* 使用多线程下载网络图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35FA670C198AAE98007E1F2F /* 使用多线程下载网络图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FA6721198AAE98007E1F2F /* Build configuration list for PBXNativeTarget "使用多线程下载网络图片Tests" */;
+			buildPhases = (
+				35FA6709198AAE98007E1F2F /* Sources */,
+				35FA670A198AAE98007E1F2F /* Frameworks */,
+				35FA670B198AAE98007E1F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FA6713198AAE98007E1F2F /* PBXTargetDependency */,
+			);
+			name = "使用多线程下载网络图片Tests";
+			productName = "使用多线程下载网络图片Tests";
+			productReference = 35FA670D198AAE98007E1F2F /* 使用多线程下载网络图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35FA66E4198AAE98007E1F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					35FA670C198AAE98007E1F2F = {
+						TestTargetID = 35FA66EB198AAE98007E1F2F;
+					};
+				};
+			};
+			buildConfigurationList = 35FA66E7198AAE98007E1F2F /* Build configuration list for PBXProject "使用多线程下载网络图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35FA66E3198AAE98007E1F2F;
+			productRefGroup = 35FA66ED198AAE98007E1F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35FA66EB198AAE98007E1F2F /* 使用多线程下载网络图片 */,
+				35FA670C198AAE98007E1F2F /* 使用多线程下载网络图片Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35FA66EA198AAE98007E1F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA6708198AAE98007E1F2F /* Images.xcassets in Resources */,
+				35FA66FA198AAE98007E1F2F /* InfoPlist.strings in Resources */,
+				35FA6703198AAE98007E1F2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FA670B198AAE98007E1F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA6719198AAE98007E1F2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35FA66E8198AAE98007E1F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA6706198AAE98007E1F2F /* ViewController.m in Sources */,
+				35FA6700198AAE98007E1F2F /* AppDelegate.m in Sources */,
+				35FA66FC198AAE98007E1F2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FA6709198AAE98007E1F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA671B198AAE98007E1F2F /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35FA6713198AAE98007E1F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35FA66EB198AAE98007E1F2F /* 使用多线程下载网络图片 */;
+			targetProxy = 35FA6712198AAE98007E1F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35FA66F8198AAE98007E1F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FA66F9198AAE98007E1F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35FA6701198AAE98007E1F2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FA6702198AAE98007E1F2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35FA6717198AAE98007E1F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FA6718198AAE98007E1F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35FA671C198AAE98007E1F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35FA671D198AAE98007E1F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35FA671F198AAE98007E1F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用多线程下载网络图片/使用多线程下载网络图片-Prefix.pch";
+				INFOPLIST_FILE = "使用多线程下载网络图片/使用多线程下载网络图片-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35FA6720198AAE98007E1F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用多线程下载网络图片/使用多线程下载网络图片-Prefix.pch";
+				INFOPLIST_FILE = "使用多线程下载网络图片/使用多线程下载网络图片-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35FA6722198AAE98007E1F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/使用多线程下载网络图片.app/使用多线程下载网络图片";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用多线程下载网络图片/使用多线程下载网络图片-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "使用多线程下载网络图片Tests/使用多线程下载网络图片Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		35FA6723198AAE98007E1F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/使用多线程下载网络图片.app/使用多线程下载网络图片";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用多线程下载网络图片/使用多线程下载网络图片-Prefix.pch";
+				INFOPLIST_FILE = "使用多线程下载网络图片Tests/使用多线程下载网络图片Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35FA66E7198AAE98007E1F2F /* Build configuration list for PBXProject "使用多线程下载网络图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FA671C198AAE98007E1F2F /* Debug */,
+				35FA671D198AAE98007E1F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FA671E198AAE98007E1F2F /* Build configuration list for PBXNativeTarget "使用多线程下载网络图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FA671F198AAE98007E1F2F /* Debug */,
+				35FA6720198AAE98007E1F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35FA6721198AAE98007E1F2F /* Build configuration list for PBXNativeTarget "使用多线程下载网络图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FA6722198AAE98007E1F2F /* Debug */,
+				35FA6723198AAE98007E1F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35FA66E4198AAE98007E1F2F /* Project object */;
+}

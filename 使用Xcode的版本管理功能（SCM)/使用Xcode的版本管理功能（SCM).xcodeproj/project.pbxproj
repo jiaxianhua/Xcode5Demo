@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359E845F198AC8D3005AB7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E845E198AC8D3005AB7E5 /* Foundation.framework */; };
+		359E8461198AC8D3005AB7E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E8460198AC8D3005AB7E5 /* CoreGraphics.framework */; };
+		359E8463198AC8D3005AB7E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E8462198AC8D3005AB7E5 /* UIKit.framework */; };
+		359E8469198AC8D3005AB7E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 359E8467198AC8D3005AB7E5 /* InfoPlist.strings */; };
+		359E846B198AC8D3005AB7E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E846A198AC8D3005AB7E5 /* main.m */; };
+		359E846F198AC8D3005AB7E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E846E198AC8D3005AB7E5 /* AppDelegate.m */; };
+		359E8472198AC8D3005AB7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359E8470198AC8D3005AB7E5 /* Main.storyboard */; };
+		359E8475198AC8D3005AB7E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E8474198AC8D3005AB7E5 /* ViewController.m */; };
+		359E8477198AC8D3005AB7E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359E8476198AC8D3005AB7E5 /* Images.xcassets */; };
+		359E847E198AC8D3005AB7E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E847D198AC8D3005AB7E5 /* XCTest.framework */; };
+		359E847F198AC8D3005AB7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E845E198AC8D3005AB7E5 /* Foundation.framework */; };
+		359E8480198AC8D3005AB7E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E8462198AC8D3005AB7E5 /* UIKit.framework */; };
+		359E8488198AC8D3005AB7E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 359E8486198AC8D3005AB7E5 /* InfoPlist.strings */; };
+		359E848A198AC8D3005AB7E5 /* __Xcode________SCM_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E8489198AC8D3005AB7E5 /* __Xcode________SCM_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		359E8481198AC8D3005AB7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359E8453198AC8D3005AB7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359E845A198AC8D3005AB7E5;
+			remoteInfo = "使用Xcode的版本管理功能（SCM)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359E845B198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用Xcode的版本管理功能（SCM).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359E845E198AC8D3005AB7E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		359E8460198AC8D3005AB7E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		359E8462198AC8D3005AB7E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		359E8466198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "使用Xcode的版本管理功能（SCM)-Info.plist"; sourceTree = "<group>"; };
+		359E8468198AC8D3005AB7E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		359E846A198AC8D3005AB7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		359E846C198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "使用Xcode的版本管理功能（SCM)-Prefix.pch"; sourceTree = "<group>"; };
+		359E846D198AC8D3005AB7E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		359E846E198AC8D3005AB7E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		359E8471198AC8D3005AB7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		359E8473198AC8D3005AB7E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		359E8474198AC8D3005AB7E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		359E8476198AC8D3005AB7E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		359E847C198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "使用Xcode的版本管理功能（SCM)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359E847D198AC8D3005AB7E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		359E8485198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "使用Xcode的版本管理功能（SCM)Tests-Info.plist"; sourceTree = "<group>"; };
+		359E8487198AC8D3005AB7E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		359E8489198AC8D3005AB7E5 /* __Xcode________SCM_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__Xcode________SCM_Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359E8458198AC8D3005AB7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E8461198AC8D3005AB7E5 /* CoreGraphics.framework in Frameworks */,
+				359E8463198AC8D3005AB7E5 /* UIKit.framework in Frameworks */,
+				359E845F198AC8D3005AB7E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359E8479198AC8D3005AB7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E847E198AC8D3005AB7E5 /* XCTest.framework in Frameworks */,
+				359E8480198AC8D3005AB7E5 /* UIKit.framework in Frameworks */,
+				359E847F198AC8D3005AB7E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359E8452198AC8D3005AB7E5 = {
+			isa = PBXGroup;
+			children = (
+				359E8464198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM) */,
+				359E8483198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests */,
+				359E845D198AC8D3005AB7E5 /* Frameworks */,
+				359E845C198AC8D3005AB7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359E845C198AC8D3005AB7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359E845B198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM).app */,
+				359E847C198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359E845D198AC8D3005AB7E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359E845E198AC8D3005AB7E5 /* Foundation.framework */,
+				359E8460198AC8D3005AB7E5 /* CoreGraphics.framework */,
+				359E8462198AC8D3005AB7E5 /* UIKit.framework */,
+				359E847D198AC8D3005AB7E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		359E8464198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM) */ = {
+			isa = PBXGroup;
+			children = (
+				359E846D198AC8D3005AB7E5 /* AppDelegate.h */,
+				359E846E198AC8D3005AB7E5 /* AppDelegate.m */,
+				359E8470198AC8D3005AB7E5 /* Main.storyboard */,
+				359E8473198AC8D3005AB7E5 /* ViewController.h */,
+				359E8474198AC8D3005AB7E5 /* ViewController.m */,
+				359E8476198AC8D3005AB7E5 /* Images.xcassets */,
+				359E8465198AC8D3005AB7E5 /* Supporting Files */,
+			);
+			path = "使用Xcode的版本管理功能（SCM)";
+			sourceTree = "<group>";
+		};
+		359E8465198AC8D3005AB7E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				359E8466198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)-Info.plist */,
+				359E8467198AC8D3005AB7E5 /* InfoPlist.strings */,
+				359E846A198AC8D3005AB7E5 /* main.m */,
+				359E846C198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		359E8483198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				359E8489198AC8D3005AB7E5 /* __Xcode________SCM_Tests.m */,
+				359E8484198AC8D3005AB7E5 /* Supporting Files */,
+			);
+			path = "使用Xcode的版本管理功能（SCM)Tests";
+			sourceTree = "<group>";
+		};
+		359E8484198AC8D3005AB7E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				359E8485198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests-Info.plist */,
+				359E8486198AC8D3005AB7E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359E845A198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359E848D198AC8D3005AB7E5 /* Build configuration list for PBXNativeTarget "使用Xcode的版本管理功能（SCM)" */;
+			buildPhases = (
+				359E8457198AC8D3005AB7E5 /* Sources */,
+				359E8458198AC8D3005AB7E5 /* Frameworks */,
+				359E8459198AC8D3005AB7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用Xcode的版本管理功能（SCM)";
+			productName = "使用Xcode的版本管理功能（SCM)";
+			productReference = 359E845B198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM).app */;
+			productType = "com.apple.product-type.application";
+		};
+		359E847B198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359E8490198AC8D3005AB7E5 /* Build configuration list for PBXNativeTarget "使用Xcode的版本管理功能（SCM)Tests" */;
+			buildPhases = (
+				359E8478198AC8D3005AB7E5 /* Sources */,
+				359E8479198AC8D3005AB7E5 /* Frameworks */,
+				359E847A198AC8D3005AB7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359E8482198AC8D3005AB7E5 /* PBXTargetDependency */,
+			);
+			name = "使用Xcode的版本管理功能（SCM)Tests";
+			productName = "使用Xcode的版本管理功能（SCM)Tests";
+			productReference = 359E847C198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359E8453198AC8D3005AB7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					359E847B198AC8D3005AB7E5 = {
+						TestTargetID = 359E845A198AC8D3005AB7E5;
+					};
+				};
+			};
+			buildConfigurationList = 359E8456198AC8D3005AB7E5 /* Build configuration list for PBXProject "使用Xcode的版本管理功能（SCM)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 359E8452198AC8D3005AB7E5;
+			productRefGroup = 359E845C198AC8D3005AB7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359E845A198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM) */,
+				359E847B198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359E8459198AC8D3005AB7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E8477198AC8D3005AB7E5 /* Images.xcassets in Resources */,
+				359E8469198AC8D3005AB7E5 /* InfoPlist.strings in Resources */,
+				359E8472198AC8D3005AB7E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359E847A198AC8D3005AB7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E8488198AC8D3005AB7E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359E8457198AC8D3005AB7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E8475198AC8D3005AB7E5 /* ViewController.m in Sources */,
+				359E846F198AC8D3005AB7E5 /* AppDelegate.m in Sources */,
+				359E846B198AC8D3005AB7E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359E8478198AC8D3005AB7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E848A198AC8D3005AB7E5 /* __Xcode________SCM_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		359E8482198AC8D3005AB7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359E845A198AC8D3005AB7E5 /* 使用Xcode的版本管理功能（SCM) */;
+			targetProxy = 359E8481198AC8D3005AB7E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		359E8467198AC8D3005AB7E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359E8468198AC8D3005AB7E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		359E8470198AC8D3005AB7E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359E8471198AC8D3005AB7E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		359E8486198AC8D3005AB7E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359E8487198AC8D3005AB7E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		359E848B198AC8D3005AB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		359E848C198AC8D3005AB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		359E848E198AC8D3005AB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用Xcode的版本管理功能（SCM)/使用Xcode的版本管理功能（SCM)-Prefix.pch";
+				INFOPLIST_FILE = "使用Xcode的版本管理功能（SCM)/使用Xcode的版本管理功能（SCM)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		359E848F198AC8D3005AB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用Xcode的版本管理功能（SCM)/使用Xcode的版本管理功能（SCM)-Prefix.pch";
+				INFOPLIST_FILE = "使用Xcode的版本管理功能（SCM)/使用Xcode的版本管理功能（SCM)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		359E8491198AC8D3005AB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/使用Xcode的版本管理功能（SCM).app/使用Xcode的版本管理功能（SCM)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用Xcode的版本管理功能（SCM)/使用Xcode的版本管理功能（SCM)-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "使用Xcode的版本管理功能（SCM)Tests/使用Xcode的版本管理功能（SCM)Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		359E8492198AC8D3005AB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/使用Xcode的版本管理功能（SCM).app/使用Xcode的版本管理功能（SCM)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "使用Xcode的版本管理功能（SCM)/使用Xcode的版本管理功能（SCM)-Prefix.pch";
+				INFOPLIST_FILE = "使用Xcode的版本管理功能（SCM)Tests/使用Xcode的版本管理功能（SCM)Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		359E8456198AC8D3005AB7E5 /* Build configuration list for PBXProject "使用Xcode的版本管理功能（SCM)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359E848B198AC8D3005AB7E5 /* Debug */,
+				359E848C198AC8D3005AB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359E848D198AC8D3005AB7E5 /* Build configuration list for PBXNativeTarget "使用Xcode的版本管理功能（SCM)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359E848E198AC8D3005AB7E5 /* Debug */,
+				359E848F198AC8D3005AB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		359E8490198AC8D3005AB7E5 /* Build configuration list for PBXNativeTarget "使用Xcode的版本管理功能（SCM)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359E8491198AC8D3005AB7E5 /* Debug */,
+				359E8492198AC8D3005AB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359E8453198AC8D3005AB7E5 /* Project object */;
+}

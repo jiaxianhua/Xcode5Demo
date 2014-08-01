@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35FA64DF198A82EB007E1F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA64DE198A82EB007E1F2F /* Foundation.framework */; };
+		35FA64E1198A82EB007E1F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA64E0198A82EB007E1F2F /* CoreGraphics.framework */; };
+		35FA64E3198A82EB007E1F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA64E2198A82EB007E1F2F /* UIKit.framework */; };
+		35FA64E9198A82EB007E1F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FA64E7198A82EB007E1F2F /* InfoPlist.strings */; };
+		35FA64EB198A82EB007E1F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA64EA198A82EB007E1F2F /* main.m */; };
+		35FA64EF198A82EB007E1F2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA64EE198A82EB007E1F2F /* AppDelegate.m */; };
+		35FA64F2198A82EB007E1F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FA64F0198A82EB007E1F2F /* Main.storyboard */; };
+		35FA64F5198A82EB007E1F2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA64F4198A82EB007E1F2F /* ViewController.m */; };
+		35FA64F7198A82EB007E1F2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FA64F6198A82EB007E1F2F /* Images.xcassets */; };
+		35FA64FE198A82EB007E1F2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA64FD198A82EB007E1F2F /* XCTest.framework */; };
+		35FA64FF198A82EB007E1F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA64DE198A82EB007E1F2F /* Foundation.framework */; };
+		35FA6500198A82EC007E1F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA64E2198A82EB007E1F2F /* UIKit.framework */; };
+		35FA6508198A82EC007E1F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FA6506198A82EC007E1F2F /* InfoPlist.strings */; };
+		35FA650A198A82EC007E1F2F /* __Post_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA6509198A82EC007E1F2F /* __Post_______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35FA6501198A82EC007E1F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35FA64D3198A82EB007E1F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35FA64DA198A82EB007E1F2F;
+			remoteInfo = "同步Post方式的网络请求";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35FA64DB198A82EB007E1F2F /* 同步Post方式的网络请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "同步Post方式的网络请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FA64DE198A82EB007E1F2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35FA64E0198A82EB007E1F2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35FA64E2198A82EB007E1F2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35FA64E6198A82EB007E1F2F /* 同步Post方式的网络请求-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "同步Post方式的网络请求-Info.plist"; sourceTree = "<group>"; };
+		35FA64E8198A82EB007E1F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35FA64EA198A82EB007E1F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35FA64EC198A82EB007E1F2F /* 同步Post方式的网络请求-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "同步Post方式的网络请求-Prefix.pch"; sourceTree = "<group>"; };
+		35FA64ED198A82EB007E1F2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35FA64EE198A82EB007E1F2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35FA64F1198A82EB007E1F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35FA64F3198A82EB007E1F2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35FA64F4198A82EB007E1F2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35FA64F6198A82EB007E1F2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35FA64FC198A82EB007E1F2F /* 同步Post方式的网络请求Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同步Post方式的网络请求Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FA64FD198A82EB007E1F2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		35FA6505198A82EC007E1F2F /* 同步Post方式的网络请求Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "同步Post方式的网络请求Tests-Info.plist"; sourceTree = "<group>"; };
+		35FA6507198A82EC007E1F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35FA6509198A82EC007E1F2F /* __Post_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__Post_______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FA64D8198A82EB007E1F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA64E1198A82EB007E1F2F /* CoreGraphics.framework in Frameworks */,
+				35FA64E3198A82EB007E1F2F /* UIKit.framework in Frameworks */,
+				35FA64DF198A82EB007E1F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FA64F9198A82EB007E1F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA64FE198A82EB007E1F2F /* XCTest.framework in Frameworks */,
+				35FA6500198A82EC007E1F2F /* UIKit.framework in Frameworks */,
+				35FA64FF198A82EB007E1F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35FA64D2198A82EB007E1F2F = {
+			isa = PBXGroup;
+			children = (
+				35FA64E4198A82EB007E1F2F /* 同步Post方式的网络请求 */,
+				35FA6503198A82EC007E1F2F /* 同步Post方式的网络请求Tests */,
+				35FA64DD198A82EB007E1F2F /* Frameworks */,
+				35FA64DC198A82EB007E1F2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35FA64DC198A82EB007E1F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35FA64DB198A82EB007E1F2F /* 同步Post方式的网络请求.app */,
+				35FA64FC198A82EB007E1F2F /* 同步Post方式的网络请求Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35FA64DD198A82EB007E1F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FA64DE198A82EB007E1F2F /* Foundation.framework */,
+				35FA64E0198A82EB007E1F2F /* CoreGraphics.framework */,
+				35FA64E2198A82EB007E1F2F /* UIKit.framework */,
+				35FA64FD198A82EB007E1F2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35FA64E4198A82EB007E1F2F /* 同步Post方式的网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				35FA64ED198A82EB007E1F2F /* AppDelegate.h */,
+				35FA64EE198A82EB007E1F2F /* AppDelegate.m */,
+				35FA64F0198A82EB007E1F2F /* Main.storyboard */,
+				35FA64F3198A82EB007E1F2F /* ViewController.h */,
+				35FA64F4198A82EB007E1F2F /* ViewController.m */,
+				35FA64F6198A82EB007E1F2F /* Images.xcassets */,
+				35FA64E5198A82EB007E1F2F /* Supporting Files */,
+			);
+			path = "同步Post方式的网络请求";
+			sourceTree = "<group>";
+		};
+		35FA64E5198A82EB007E1F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FA64E6198A82EB007E1F2F /* 同步Post方式的网络请求-Info.plist */,
+				35FA64E7198A82EB007E1F2F /* InfoPlist.strings */,
+				35FA64EA198A82EB007E1F2F /* main.m */,
+				35FA64EC198A82EB007E1F2F /* 同步Post方式的网络请求-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35FA6503198A82EC007E1F2F /* 同步Post方式的网络请求Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35FA6509198A82EC007E1F2F /* __Post_______Tests.m */,
+				35FA6504198A82EC007E1F2F /* Supporting Files */,
+			);
+			path = "同步Post方式的网络请求Tests";
+			sourceTree = "<group>";
+		};
+		35FA6504198A82EC007E1F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FA6505198A82EC007E1F2F /* 同步Post方式的网络请求Tests-Info.plist */,
+				35FA6506198A82EC007E1F2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35FA64DA198A82EB007E1F2F /* 同步Post方式的网络请求 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FA650D198A82EC007E1F2F /* Build configuration list for PBXNativeTarget "同步Post方式的网络请求" */;
+			buildPhases = (
+				35FA64D7198A82EB007E1F2F /* Sources */,
+				35FA64D8198A82EB007E1F2F /* Frameworks */,
+				35FA64D9198A82EB007E1F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "同步Post方式的网络请求";
+			productName = "同步Post方式的网络请求";
+			productReference = 35FA64DB198A82EB007E1F2F /* 同步Post方式的网络请求.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35FA64FB198A82EB007E1F2F /* 同步Post方式的网络请求Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FA6510198A82EC007E1F2F /* Build configuration list for PBXNativeTarget "同步Post方式的网络请求Tests" */;
+			buildPhases = (
+				35FA64F8198A82EB007E1F2F /* Sources */,
+				35FA64F9198A82EB007E1F2F /* Frameworks */,
+				35FA64FA198A82EB007E1F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FA6502198A82EC007E1F2F /* PBXTargetDependency */,
+			);
+			name = "同步Post方式的网络请求Tests";
+			productName = "同步Post方式的网络请求Tests";
+			productReference = 35FA64FC198A82EB007E1F2F /* 同步Post方式的网络请求Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35FA64D3198A82EB007E1F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jiaxh;
+				TargetAttributes = {
+					35FA64FB198A82EB007E1F2F = {
+						TestTargetID = 35FA64DA198A82EB007E1F2F;
+					};
+				};
+			};
+			buildConfigurationList = 35FA64D6198A82EB007E1F2F /* Build configuration list for PBXProject "同步Post方式的网络请求" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35FA64D2198A82EB007E1F2F;
+			productRefGroup = 35FA64DC198A82EB007E1F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35FA64DA198A82EB007E1F2F /* 同步Post方式的网络请求 */,
+				35FA64FB198A82EB007E1F2F /* 同步Post方式的网络请求Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35FA64D9198A82EB007E1F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA64F7198A82EB007E1F2F /* Images.xcassets in Resources */,
+				35FA64E9198A82EB007E1F2F /* InfoPlist.strings in Resources */,
+				35FA64F2198A82EB007E1F2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FA64FA198A82EB007E1F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA6508198A82EC007E1F2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35FA64D7198A82EB007E1F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA64F5198A82EB007E1F2F /* ViewController.m in Sources */,
+				35FA64EF198A82EB007E1F2F /* AppDelegate.m in Sources */,
+				35FA64EB198A82EB007E1F2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FA64F8198A82EB007E1F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FA650A198A82EC007E1F2F /* __Post_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35FA6502198A82EC007E1F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35FA64DA198A82EB007E1F2F /* 同步Post方式的网络请求 */;
+			targetProxy = 35FA6501198A82EC007E1F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35FA64E7198A82EB007E1F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FA64E8198A82EB007E1F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35FA64F0198A82EB007E1F2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FA64F1198A82EB007E1F2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35FA6506198A82EC007E1F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FA6507198A82EC007E1F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35FA650B198A82EC007E1F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35FA650C198A82EC007E1F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35FA650E198A82EC007E1F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "同步Post方式的网络请求/同步Post方式的网络请求-Prefix.pch";
+				INFOPLIST_FILE = "同步Post方式的网络请求/同步Post方式的网络请求-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35FA650F198A82EC007E1F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "同步Post方式的网络请求/同步Post方式的网络请求-Prefix.pch";
+				INFOPLIST_FILE = "同步Post方式的网络请求/同步Post方式的网络请求-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35FA6511198A82EC007E1F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/同步Post方式的网络请求.app/同步Post方式的网络请求";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "同步Post方式的网络请求/同步Post方式的网络请求-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "同步Post方式的网络请求Tests/同步Post方式的网络请求Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		35FA6512198A82EC007E1F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/同步Post方式的网络请求.app/同步Post方式的网络请求";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "同步Post方式的网络请求/同步Post方式的网络请求-Prefix.pch";
+				INFOPLIST_FILE = "同步Post方式的网络请求Tests/同步Post方式的网络请求Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35FA64D6198A82EB007E1F2F /* Build configuration list for PBXProject "同步Post方式的网络请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FA650B198A82EC007E1F2F /* Debug */,
+				35FA650C198A82EC007E1F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FA650D198A82EC007E1F2F /* Build configuration list for PBXNativeTarget "同步Post方式的网络请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FA650E198A82EC007E1F2F /* Debug */,
+				35FA650F198A82EC007E1F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35FA6510198A82EC007E1F2F /* Build configuration list for PBXNativeTarget "同步Post方式的网络请求Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FA6511198A82EC007E1F2F /* Debug */,
+				35FA6512198A82EC007E1F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35FA64D3198A82EB007E1F2F /* Project object */;
+}
